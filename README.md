@@ -19,7 +19,7 @@ My solutions to Hive exam tasks in C 🐝
 - brainfuck
 - ft_itoa_base
 - rev_wstr
-- sort_int_tab
+- sort_int_tab ✅
 - check_mate
 
 # Level 5
