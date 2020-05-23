@@ -17,7 +17,7 @@ My solutions to Hive exam tasks in C 🐝
 - ft_list_remove_if
 - ft_list_foreach
 - brainfuck
-- ft_itoa_base
+- ft_itoa_base ✅
 - rev_wstr
 - sort_int_tab ✅
 - check_mate
