@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   brainfuck.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbehm <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: bbehm <bbehm@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/27 12:28:52 by bbehm             #+#    #+#             */
-/*   Updated: 2020/01/27 12:46:08 by bbehm            ###   ########.fr       */
+/*   Updated: 2020/07/06 16:51:58 by bbehm            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	main(int argc, const char *argv[])
 			return (-1);
 		while (i <= BUFF_SIZE)
 			pointer[i++] = '\0';
-		i =  0;
+		i = 0;
 		while (argv[1][i])
 		{
 			argv[1][i] == '<' ? pointer += 1 : pointer;
